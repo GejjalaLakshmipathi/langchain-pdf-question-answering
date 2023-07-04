@@ -22,7 +22,7 @@ def main():
 
     # Load OpenAI API key from .env file
     _ = load_dotenv(find_dotenv())  # read local .env file
-    openai.api_key = os.environ['OPENAI_API_KEY']
+    openai.api_key = os.environ['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']
 
     # Get source document input
     user_doc = st.file_uploader("Upload Your PDF Document", type="pdf")
